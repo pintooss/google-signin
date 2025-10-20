@@ -13,11 +13,11 @@ jobs:
           github-token: ${{ github.token }}
           support-label: 'repro-required'
           issue-comment: >
-            :wave: @{issue-author}, sorry you're having an issue. As the issue template explains, it's required that you provide a runnable example that reproduces your issue (please read the [issue template](https://github.com/react-native-google-signin/google-signin/blob/master/.github/ISSUE_TEMPLATE/custom.yaml)).
+            :wave: @{issue-author}, sorry you're having an issue. As the issue template explains, it's required that you provide a runnable example that reproduces your issue (read the [issue template](https://github.com/react-native-google-signin/google-signin/blob/master/.github/ISSUE_TEMPLATE/custom.yaml)).
 
-            The reason is that the maintainer does not have time to try reproduce bugs himself. Please try to minimize the superfluous code and focus only on reproducing the bug.
+            The reason is that the maintainer does not have time to try reproduce bugs himself. Try to minimize the superfluous code and focus only on reproducing the bug.
 
-            Please create a new issue with this and the maintainer will do his best to review it!.
+            If you create a new issue with this in mind, the maintainer will do his best to review it!
           close-issue: true
           lock-issue: true
       - uses: dessant/support-requests@v4
